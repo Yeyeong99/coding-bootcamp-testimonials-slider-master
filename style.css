@@ -11,21 +11,33 @@ body {
   background-image: url(./images/pattern-bg.svg),
     url(./images/pattern-curve.svg), url(./images/pattern-quotes.svg);
   background-repeat: no-repeat;
-  background-size: 45%, 50%, 10%;
-  background-position: left 90% top 30%, bottom left, left 20% top 30%;
+  background-size: 45%, 50%, 7%;
+  background-position: left 90% top 30%, bottom left, left 25% top 30%;
 }
 
-.description {
-  width: 35%;
+.personal-info {
+  width: 40%;
   position: absolute;
-  top: 30%;
-  right: 20%;
+  top: 35%;
+  left: 18%;
   font-weight: 300;
-
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }
 
+.info > span {
+    font-weight: 700;
+}
+.info {
+    margin-top: 1rem;
+    font-size: 0.5rem;
+}
+
+.Tanya > img {
+    background-image: ;
+} 
 .John {
-  display: none;
+    display: none;
 }
 
 footer {
